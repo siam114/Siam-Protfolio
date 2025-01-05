@@ -30,13 +30,7 @@ const works = [
     title: "Dragon News Category",
     tags: ["eCommerce", "Development"],
     projectLink: "https://dragon-news-7104a.web.app/category/01",
-  },
-  {
-    imgSrc: "/project-6.jpg",
-    title: "BPL Player Drafted",
-    tags: ["Web-design", "Development"],
-    projectLink: "https://bpl-player-drafted.netlify.app/",
-  },
+  }
 ];
 
 
