@@ -2,42 +2,43 @@ import ProjectsCard from "./ProjectsCard";
 
 const works = [
   {
-    imgSrc: "/project-1.jpg",
-    title: "Full stack music app",
+    imgSrc: "/project-1.png",
+    title: "SportAxis Project",
     tags: ["API", "MVC", "Development"],
     projectLink: "https://sportaxis-project.web.app/",
   },
   {
-    imgSrc: "/project-2.jpg",
-    title: "Free stock photo app",
+    imgSrc: "/project-2.png",
+    title: "QueryMate Project",
     tags: ["API", "SPA"],
     projectLink: "https://querymate-project.web.app/",
   },
   {
-    imgSrc: "/project-3.jpg",
-    title: "Recipe app",
+    imgSrc: "/project-3.png",
+    title: "Job Portal",
     tags: ["Development", "API"],
     projectLink: "https://job-portal-462b3.web.app/",
   },
   {
-    imgSrc: "/project-4.jpg",
-    title: "Real state website",
+    imgSrc: "/project-4.png",
+    title: "CareerGuide Project",
     tags: ["Web-design", "Development"],
     projectLink: "https://careerguide-project.web.app/",
   },
   {
-    imgSrc: "/project-5.jpg",
-    title: "eCommerce website",
+    imgSrc: "/project-5.png",
+    title: "Dragon News Category",
     tags: ["eCommerce", "Development"],
     projectLink: "https://dragon-news-7104a.web.app/category/01",
   },
   {
     imgSrc: "/project-6.jpg",
-    title: "vCard Personal portfolio",
+    title: "BPL Player Drafted",
     tags: ["Web-design", "Development"],
     projectLink: "https://bpl-player-drafted.netlify.app/",
   },
 ];
+
 
 const Work = () => {
   return (
