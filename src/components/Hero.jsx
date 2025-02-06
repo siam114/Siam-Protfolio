@@ -16,9 +16,10 @@ const Hero = () => {
                             Available for work
                         </div>
                     </div>
-                    <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10">
-                    Building Scalable Modern Websites for the Future
+                    <h2 className="headline-3 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-1 lg:mb-1">
+                    Hello <br /> I&apos;m <span className="bg-gradient-to-r from-[#38bdf8] to-[#1e3a8a] bg-clip-text text-transparent">SM Siam</span>
                     </h2>
+                    <p className="mb-8 lg:mb-10">Junior Frontend Developer</p>
                     <div className="flex items-center gap-3">
                         <ButtonPrimary
                           label="Download CV"
@@ -35,7 +36,7 @@ const Hero = () => {
                     </div>
                 </div>
 
-                <div className="hidden lg:block">
+                <div className="mt-5 lg:block">
                     <figure className="w-full max-w-[480px] ml-auto bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 to-65% rounded-[60px] overflow-hidden">
                         <img src="/siambanner.jpg" width={656} height={800} alt="" className="w-full" />
                     </figure>
