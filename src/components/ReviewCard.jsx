@@ -38,7 +38,7 @@ const ReviewCard = ({ content, name, imgSrc, company }) => {
 ReviewCard.propTypes ={
     imgSrc: PropTypes.string.isRequired,
     content: PropTypes.string.isRequired,
-    name: PropTypes.array.isRequired,
+    name: PropTypes.string.isRequired,
     company: PropTypes.string.isRequired,
 }
 

@@ -27,21 +27,21 @@ const reviews = [
   {
     content:
       "Outstanding developer! Built a robust site with perfect functionality. Efficient and detail-oriented.",
-    name: "Liam Bennett",
+    name: "Jony",
     imgSrc: "/people-3.jpg",
     company: "CodeCraft",
   },
   {
     content:
       "Creative and skilled! Produced a modern, user-friendly site that exceeded expectations. Great communication.",
-    name: "Noah Williams",
+    name: "Mehedi",
     imgSrc: "/people-4.jpg",
     company: "BrightWeb",
   },
   {
     content:
       "Professional work! Delivered on time, with a polished design and smooth user experience. Top-notch developer.",
-    name: "Ava Thompson",
+    name: "Rohima",
     imgSrc: "/people-5.jpg",
     company: "TechMosaic",
   },
