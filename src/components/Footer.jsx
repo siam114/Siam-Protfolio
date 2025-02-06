@@ -26,23 +26,23 @@ const sitemap = [
 const socials = [
   {
     label: "GitHub",
-    href: "https://github.com/",
+    href: "https://github.com/siam114",
   },
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com",
+    href: "https://www.linkedin.com/in/sm-siam/",
   },
   {
     label: "Twitter X",
-    href: "https://x.com/home?lang=en",
+    href: "https://x.com/SMSiam233877",
   },
   {
-    label: "Instagram",
-    href: "https://www.instagram.com/",
+    label: "Facebook",
+    href: "https://www.facebook.com/sumsuzzaman.siam",
   },
   {
-    label: "CodePen",
-    href: "https://codepen.io/",
+    label: "Discord",
+    href: "https://discord.com/channels/@me",
   },
 ];
 
