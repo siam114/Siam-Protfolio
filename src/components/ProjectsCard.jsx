@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 
 const ProjectsCard = ({ project }) => {
-    const { imgSrc, title, tags, projectLink, classes, description } = project;
+    const { imgSrc, title, tags, projectLink, clientLink, classes, description } = project;
 
     return (
         <div className={`relative p-4 rounded-2xl bg-zinc-800 hover:bg-zinc-700/50 active:bg-zinc-700/50 ring-1 ring-inset ring-zinc-50/5 transition-colors ${classes}`}>
@@ -29,7 +29,7 @@ const ProjectsCard = ({ project }) => {
                     </div>
                 </div>
 
-                {/* Project Link Button (Clickable) */}
+                {/* Project Link Button */}
                 <a href={projectLink} target="_blank" rel="noopener noreferrer"
                     className="w-11 h-11 rounded-lg grid place-items-center bg-sky-400 text-zinc-950 shrink-0 hover:bg-sky-500 transition">
                     <span className="material-symbols-rounded" aria-hidden="true">
@@ -38,6 +38,14 @@ const ProjectsCard = ({ project }) => {
                 </a>
             </div>
 
+            {/* Client Site Button */}
+                <a href={clientLink} target="_blank" rel="noopener noreferrer"
+                    className="mt-4 flex items-center justify-center gap-2 w-full py-2 rounded-lg bg-sky-400 text-zinc-950 shrink-0 hover:bg-sky-500 transition cursor-pointer">
+                    <span className="material-symbols-rounded" aria-hidden="true">
+                        web
+                    </span>
+                    View Client Site
+                </a>
         </div>
     );
 };

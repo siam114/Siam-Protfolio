@@ -5,6 +5,7 @@ const works = [
       title: "EstateHive Project",
       tags: ["Express", "MongoDB", "REACT"],
       projectLink: "https://estatehive-357ff.web.app/",
+      clientLink: "https://github.com/siam114/EstateHive",
       description: "A modern real estate platform for buying, selling, and managing properties. Users can explore detailed listings with images and descriptions. Features include advanced search, agent profiles, and property management tools."
     },
     {
@@ -13,6 +14,7 @@ const works = [
       title: "SportAxis Project",
       tags: ["MongoDB", "Firebase", "Vercel"],
       projectLink: "https://sportaxis-project.web.app/",
+      clientLink: "https://github.com/siam114/sportsAxios",
       description: "An interactive sports platform featuring live scores, match schedules, and player statistics. Users can track their favorite teams and get real-time updates. The platform integrates with APIs for live data synchronization."
     },
     {
@@ -21,6 +23,7 @@ const works = [
       title: "QueryMate Project",
       tags: ["REACT", "Firebase", "Vercel"],
       projectLink: "https://querymate-project.web.app/",
+      clientLink: "https://github.com/siam114/QueyMate-",
       description: "A collaborative Q&A platform designed for developers and tech enthusiasts. Users can ask questions, post answers, and upvote valuable contributions. Firebase authentication ensures secure login and profile management."
     },
     {
@@ -29,6 +32,7 @@ const works = [
       title: "Job Portal",
       tags: ["JS", "NodeJS", "Express"],
       projectLink: "https://job-portal-462b3.web.app/",
+      clientLink: "https://github.com/siam114/job-portal",
       description: "A job searching platform connecting job seekers with top companies. Users can upload resumes, apply for jobs, and receive notifications. Employers can post jobs, filter candidates, and manage applications efficiently."
     },
     {
@@ -37,6 +41,7 @@ const works = [
       title: "CareerGuide Project",
       tags: ["Tailwind", "DaisyUI", "REACT"],
       projectLink: "https://careerguide-project.web.app/",
+      clientLink: "https://github.com/siam114/Career-Counseling-project",
       description: "An educational platform offering career advice, mentorship, and skill assessments. Users can explore courses, industry insights, and personalized recommendations. The platform helps individuals plan and advance their careers."
     },
     {
@@ -45,6 +50,7 @@ const works = [
       title: "Dragon News Category",
       tags: ["REACT", "NodeJS", "Vercel"],
       projectLink: "https://dragon-news-7104a.web.app/category/01",
+      clientLink: "https://github.com/siam114/Dragon-news",
       description: "A dynamic news platform delivering category-based news updates. Users can browse trending articles, save favorites, and share content. The system fetches real-time news from various sources for accurate reporting."
     }
   ];
