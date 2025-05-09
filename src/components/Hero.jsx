@@ -17,9 +17,11 @@ const Hero = () => {
                         </div>
                     </div>
                     <h2 className="headline-3 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-1 lg:mb-1">
-                    Hello <br /> I&apos;m <span className="bg-gradient-to-r from-[#38bdf8] to-[#1e3a8a] bg-clip-text text-transparent">SM Siam</span>
+                    Hello I&apos;m <span className="bg-gradient-to-r from-[#38bdf8] to-[#1e3a8a] bg-clip-text text-transparent">SM Sumsuzzaman</span>
                     </h2>
-                    <p className="mb-8 lg:mb-10">Junior Frontend Developer</p>
+                    <p className="mb-1">Junior Frontend Developer</p>
+                    <p className="mb-1">What&apos;s App : 01783030598</p>
+                    <p className="mb-8 lg:mb-10">Email : smsiam987@gmail.com</p>
                     <div className="flex items-center gap-3">
                         <ButtonPrimary
                           label="Download CV"
