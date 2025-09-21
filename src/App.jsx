@@ -7,48 +7,47 @@ import Review from "./components/Review";
 import Skill from "./components/Skill";
 import Work from "./components/Work";
 
-import { ReactLenis } from 'lenis/react'
+import { ReactLenis } from "lenis/react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { useGSAP } from '@gsap/react';
-import 'lenis/dist/lenis.css'
+import { useGSAP } from "@gsap/react";
+import "lenis/dist/lenis.css";
 
 // register gsap plugin
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
 const App = () => {
+  useGSAP(() => {
+    const elements = gsap.utils.toArray(".reveal-up");
 
-  useGSAP(()=>{
-    const elements = gsap.utils.toArray('.reveal-up');
-    
-    elements.forEach((element)=>{
+    elements.forEach((element) => {
       gsap.to(element, {
         scrollTrigger: {
           trigger: element,
-          start: '-200 bottom',
-          end: 'bottom 80%',
-          scrub:true,
+          start: "-200 bottom",
+          end: "bottom 80%",
+          scrub: true,
         },
         y: 0,
         opacity: 1,
         duration: 1,
-        ease: 'power2.out'
-      })
-    })
-  })
-  return(
+        ease: "power2.out",
+      });
+    });
+  });
+  return (
     <ReactLenis root>
-      <Header/>
+      <Header />
       <main>
-        <Hero/>
-        <About/>
-        <Skill/>
-        <Work/>
-        <Review/>
-        <Contact/>
+        <Hero />
+        <About />
+        <Skill />
+        <Work />
+        <Review />
+        <Contact />
       </main>
-      <Footer/>
+      <Footer />
     </ReactLenis>
-  )
-}
+  );
+};
 export default App;
