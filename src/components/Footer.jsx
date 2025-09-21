@@ -52,13 +52,15 @@ const Footer = () => {
       <div className="container">
         <div className="lg:grid lg:grid-cols-3">
           <div className="mb-10">
-            <h2 className="headline-2 mb-8 lg:max-w-[12ch] reveal -up">Let&apos;s work together today!</h2>
+            <h2 className="headline-2 mb-8 lg:max-w-[12ch] reveal -up">
+              Let&apos;s work together today!
+            </h2>
 
             <ButtonPrimary
               href="mailto:smsiam987@gmail.com"
               label="Start project"
               icon="chevron_right"
-              classes='reveal -up'
+              classes="reveal -up"
             />
           </div>
 
@@ -69,7 +71,10 @@ const Footer = () => {
               <ul>
                 {sitemap.map(({ label, href }, key) => (
                   <li key={key}>
-                    <a href={href} className="block text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200 reveal -up">
+                    <a
+                      href={href}
+                      className="block text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200 reveal -up"
+                    >
                       {label}
                     </a>
                   </li>
@@ -84,7 +89,11 @@ const Footer = () => {
             <ul>
               {socials.map(({ label, href }, key) => (
                 <li key={key}>
-                  <a href={href} target="_blank" className="block text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200 reveal -up">
+                  <a
+                    href={href}
+                    target="_blank"
+                    className="block text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200 reveal -up"
+                  >
                     {label}
                   </a>
                 </li>
@@ -95,7 +104,13 @@ const Footer = () => {
 
         <div className="flex items-center justify-between pt-10 mb-8">
           <a href="/" className="reveal -up">
-            <img src="/logo.jpg" width={40}  height={40} alt="logo" className="rounded-lg" />
+            <img
+              src="/logo.jpg"
+              width={40}
+              height={40}
+              alt="logo"
+              className="rounded-lg"
+            />
           </a>
 
           <p className="text-zinc-500 text-sm reveal -up">
