@@ -12,7 +12,7 @@ const works = [
   },
   {
     id: 1,
-    imgSrc: "/project-8.png",
+    imgSrc: "/project-7.png",
     title: "QuickChat Project",
     tags: ["Vercel", "Express", "MongoDB"],
     projectLink: "https://chat-app-gamma-six-33.vercel.app/login",
@@ -73,6 +73,17 @@ const works = [
     projectLink: "https://dragon-news-7104a.web.app/category/01",
     clientLink: "https://github.com/siam114/Dragon-news",
     serverLink: "https://github.com/siam114/Dragon-news",
+    description:
+      "A dynamic news platform delivering category-based news updates. Users can browse trending articles, save favorites, and share content. The system fetches real-time news from various sources for accurate reporting.",
+  },
+  {
+    id: 7,
+    imgSrc: "/project-8.png",
+    title: "Software Chamber",
+    tags: ["REACT", "Typescript", "Tailwind"],
+    projectLink: "https://software-chamber-portfolio-website.vercel.app/",
+    clientLink: "https://github.com/siam114/software-chamber-portfolio-website",
+    serverLink: "https://github.com/siam114/software-chamber-portfolio-website",
     description:
       "A dynamic news platform delivering category-based news updates. Users can browse trending articles, save favorites, and share content. The system fetches real-time news from various sources for accurate reporting.",
   },
