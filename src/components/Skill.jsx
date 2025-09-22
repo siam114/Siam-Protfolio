@@ -42,12 +42,12 @@ const skillItem = [
     desc: "Framework",
   },
   {
-    imgSrc: "/Nextjs.png",
+    imgSrc: "/Nextjs.webp",
     label: "Next.js",
     desc: "React Framework",
   },
   {
-    imgSrc: "/TS.png",
+    imgSrc: "/Typescript.png",
     label: "TypeScript",
     desc: "Typed JavaScript",
   },
