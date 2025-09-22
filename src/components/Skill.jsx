@@ -57,7 +57,7 @@ const skillItem = [
     desc: "Auth & Hosting",
   },
     {
-    imgSrc: "/Git.png",
+    imgSrc: "/Git.svg",
     label: "Git & GitHub",
     desc: "Version Control",
   },
