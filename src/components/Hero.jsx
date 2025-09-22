@@ -9,8 +9,8 @@ const Hero = () => {
             <figure className="img-box w-9 h-9 rounded-lg">
               <img
                 src="/siambanner.jpg"
-                width={40}
-                height={40}
+                width={30}
+                height={30}
                 alt=""
                 className="img-cover"
               />
@@ -28,7 +28,6 @@ const Hero = () => {
               SM Sumsuzzaman
             </span>
           </h2>
-          <p className="mb-1">Junior Frontend Developer</p>
           <p className="mb-1">What&apos;s App : 01783030598</p>
           <p className="mb-8 lg:mb-10">Email : smsiam987@gmail.com</p>
           <div className="flex items-center gap-3">
