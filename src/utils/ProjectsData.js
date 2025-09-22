@@ -12,7 +12,7 @@ const works = [
   },
   {
     id: 1,
-    imgSrc: "/project-7.png",
+    imgSrc: "/project-8.png",
     title: "QuickChat Project",
     tags: ["Vercel", "Express", "MongoDB"],
     projectLink: "https://chat-app-gamma-six-33.vercel.app/login",
