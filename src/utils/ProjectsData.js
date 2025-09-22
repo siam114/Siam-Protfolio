@@ -13,13 +13,13 @@ const works = [
   {
     id: 1,
     imgSrc: "/project-7.png",
-    title: "EstateHive Project",
-    tags: ["Express", "MongoDB", "REACT"],
-    projectLink: "https://estatehive-357ff.web.app/",
-    clientLink: "https://github.com/siam114/EstateHive",
-    serverLink: "https://github.com/siam114/EstateHive-server",
+    title: "QuickChat Project",
+    tags: ["Vercel", "Express", "MongoDB"],
+    projectLink: "https://chat-app-gamma-six-33.vercel.app/login",
+    clientLink: "https://github.com/siam114/Chat-App",
+    serverLink: "https://github.com/siam114/Chat-App/tree/main/server",
     description:
-      "A modern real estate platform for buying, selling, and managing properties. Users can explore detailed listings with images and descriptions. Features include advanced search, agent profiles, and property management tools.",
+      "QuickChat is a real-time chat application built with the MERN Stack and Socket.io, allowing users to send and receive instant messages with a smooth, responsive UI.",
   },
   {
     id: 2,
