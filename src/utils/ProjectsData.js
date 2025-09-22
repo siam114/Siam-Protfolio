@@ -1,7 +1,18 @@
 const works = [
   {
-    id: 1,
+    id: 0,
     imgSrc: "/project-0.png",
+    title: "EstateHive Project",
+    tags: ["Express", "MongoDB", "REACT"],
+    projectLink: "https://estatehive-357ff.web.app/",
+    clientLink: "https://github.com/siam114/EstateHive",
+    serverLink: "https://github.com/siam114/EstateHive-server",
+    description:
+      "A modern real estate platform for buying, selling, and managing properties. Users can explore detailed listings with images and descriptions. Features include advanced search, agent profiles, and property management tools.",
+  },
+  {
+    id: 1,
+    imgSrc: "/project-7.png",
     title: "EstateHive Project",
     tags: ["Express", "MongoDB", "REACT"],
     projectLink: "https://estatehive-357ff.web.app/",
