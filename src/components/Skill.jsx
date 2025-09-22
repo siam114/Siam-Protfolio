@@ -41,7 +41,28 @@ const skillItem = [
     label: "TailwindCSS",
     desc: "User Interface",
   },
+  {
+    imgSrc: "/Nextjs.png",
+    label: "Next.js",
+    desc: "React Framework",
+  },
+  {
+    imgSrc: "/TS.png",
+    label: "TypeScript",
+    desc: "Typed JavaScript",
+  },
+  {
+    imgSrc: "/Firebase.png",
+    label: "Firebase",
+    desc: "Auth & Hosting",
+  },
+    {
+    imgSrc: "/Git.png",
+    label: "Git & GitHub",
+    desc: "Version Control",
+  },
 ];
+
 
 const Skill = () => {
   return (
