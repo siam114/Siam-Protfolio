@@ -6,7 +6,7 @@ const About = () => {
     },
     {
       label: "Years of experience",
-      number: 0,
+      number: 1,
     },
   ];
   return (
