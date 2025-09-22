@@ -12,6 +12,11 @@ const skillItem = [
     desc: "User Interface",
   },
   {
+    imgSrc: "/TailwindCSS.png",
+    label: "TailwindCSS",
+    desc: "User Interface",
+  },
+  {
     imgSrc: "/js.png",
     label: "JavaScript",
     desc: "Interaction",
@@ -35,11 +40,6 @@ const skillItem = [
     imgSrc: "/React.png",
     label: "React",
     desc: "Framework",
-  },
-  {
-    imgSrc: "/TailwindCSS.png",
-    label: "TailwindCSS",
-    desc: "User Interface",
   },
   {
     imgSrc: "/Nextjs.png",
