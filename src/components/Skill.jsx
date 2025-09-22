@@ -56,13 +56,12 @@ const skillItem = [
     label: "Firebase",
     desc: "Auth & Hosting",
   },
-    {
+  {
     imgSrc: "/Git.svg",
     label: "Git & GitHub",
     desc: "Version Control",
   },
 ];
-
 
 const Skill = () => {
   return (
