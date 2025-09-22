@@ -35,7 +35,7 @@ const Hero = () => {
             <ButtonPrimary
               label="Download CV"
               icon="download"
-              href="Resume.pdf"
+              href="CV_Siam.pdf"
             />
 
             <ButtonOutline
